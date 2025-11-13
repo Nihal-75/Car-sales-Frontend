@@ -2,7 +2,7 @@ import About from "./componants/About/About";
 import Home from "./componants/Home/Home";
 import Navbar from "./componants/Navbar/Navbar";
 import Car  from "./componants/Car/car";
-import Survices from "./componants/Survices/survices";
+import Survices from "./componants/NameSurvice/Survices";
 import Footer from "./componants/Footer/Footer";
 
 
