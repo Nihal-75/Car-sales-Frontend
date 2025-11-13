@@ -40,14 +40,6 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#About"
-              className="hover:text-[#f4c542] transition-colors duration-300"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
               href="#Contacts"
               className="hover:text-[#f4c542] transition-colors duration-300"
             >
@@ -69,7 +61,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="md:hidden bg-black/95 text-white flex flex-col items-center gap-6 py-8 text-lg font-semibold border-t border-gray-700 animate-slideDown">
           <a
@@ -87,18 +79,11 @@ const Navbar = () => {
             Cars
           </a>
           <a
-            href="#Survices"
+            href="#Projects"
             className="hover:text-[#f4c542] transition-colors duration-300"
             onClick={() => setMenuOpen(false)}
           >
             Services
-          </a>
-          <a
-            href="#About"
-            className="hover:text-[#f4c542] transition-colors duration-300"
-            onClick={() => setMenuOpen(false)}
-          >
-            About
           </a>
           <a
             href="#Contacts"
